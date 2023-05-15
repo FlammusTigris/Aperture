@@ -142,6 +142,9 @@ header nav ul li:last-of-type a {
 .test {
     background-color: purple;
 }
+.test li {
+    display: inline-flex;
+}
 
 
 
