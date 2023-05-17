@@ -139,7 +139,36 @@ header nav ul li:last-of-type a {
     background-color: black;
     margin:5px 6px 5px 4px;
 }
-
+.information_block {
+    background-image: url("../images/IMAGE2.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.information_block article {
+    max-width: 298px;
+    margin-right: 62px;
+}
+.information_block article h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.information_block article p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
 
 
 
