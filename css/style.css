@@ -22,8 +22,7 @@ header nav ul li:first-of-type{
     margin-right: 24px;
 }
 header nav  li a {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
@@ -34,8 +33,7 @@ header nav ul li:first-of-type a{
     font-size: 12px;
 }
 header nav ul li:last-of-type a {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -61,8 +59,7 @@ header nav ul li:last-of-type a {
     text-align:center ;
 }
 .main_banner h3 {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -71,8 +68,7 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 .main_banner h1{
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 54px;
     line-height: 59px;
@@ -80,8 +76,7 @@ header nav ul li:last-of-type a {
     margin-bottom: 18px;
 }
 .main_banner p {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -98,8 +93,7 @@ header nav ul li:last-of-type a {
     margin: auto;
 }
 .help_main {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
@@ -107,17 +101,15 @@ header nav ul li:last-of-type a {
     margin-bottom: 15px;
 }
 .help_secondary {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
     color: #C0C0C0;
     margin-bottom: 22px;
 }
-.help_link {
-    font-family: 'Poppins';
-    font-style: normal;
+.help_link{
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -130,7 +122,7 @@ header nav ul li:last-of-type a {
     display: inline-flex;
     align-items: center;
 }
-.help_link:before {
+.help_link:before{
     content: "";
     display: inline-block;
     width: 32px;
@@ -139,7 +131,7 @@ header nav ul li:last-of-type a {
     background-color: black;
     margin:5px 6px 5px 4px;
 }
-.information_block {
+.information_block{
     background-image: url("../images/IMAGE2.jpg");
     background-size: cover;
     min-height: 600px;
@@ -147,13 +139,12 @@ header nav ul li:last-of-type a {
     justify-content: flex-end;
     align-items: center;
 }
-.information_block article {
+.information_block article{
     max-width: 298px;
     margin-right: 62px;
 }
-.information_block article h3 {
-    font-family: 'Poppins';
-    font-style: normal;
+.information_block article h3{
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -161,14 +152,66 @@ header nav ul li:last-of-type a {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.information_block article p {
-    font-family: 'Poppins';
-    font-style: normal;
+.information_block article p{
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
 }
-
-
-
+.monstera_example{
+    background-image: url("../images/IMAGE3.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.monstera_example article{
+    max-width:273px ;
+    margin-right:87px ;
+}
+.monstera_example article h3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.monstera_example article p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.star_fall_example{
+    background-image: url("../images/IMAGE4.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.star_fall_example article{
+    max-width:241px ;
+    margin-right:119px ;
+}
+.star_fall_example article h3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.star_fall_example article p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
