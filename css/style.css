@@ -129,6 +129,26 @@ header nav ul li:last-of-type a {
     max-width: 1168px;
     margin: auto;
 }
+.what_we_do h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
 .what_we_do .d_flex{
     display: flex;
     justify-content: space-between;
@@ -144,6 +164,49 @@ header nav ul li:last-of-type a {
     bottom: 30px;
     left: 30px;
     right: 30px;
+}
+.what_we_do .d_flex h5{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.what_we_do .d_flex p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 17px;
+}
+.what_we_do article .description a{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding-right: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.what_we_do article .description a:before{
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin:5px 6px 5px 4px;
 }
 .what_we_do article img {
     display: block;
@@ -205,6 +268,7 @@ header nav ul li:last-of-type a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .information_block article{
     max-width: 298px;
@@ -233,6 +297,7 @@ header nav ul li:last-of-type a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .monstera_example article{
     max-width:273px ;
@@ -261,6 +326,7 @@ header nav ul li:last-of-type a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .star_fall_example article{
     max-width:241px ;
