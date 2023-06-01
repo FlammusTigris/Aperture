@@ -58,6 +58,9 @@
     .star_fall_example article{
         margin-left: 10px;
     }
+    .logo {
+        rotate: 90deg;
+    }
 }
 @media only screen and (max-width: 320px){
     header .container {
